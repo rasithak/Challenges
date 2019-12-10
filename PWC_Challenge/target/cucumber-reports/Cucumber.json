@@ -1,0 +1,334 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1400386687,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeScenario(Scenario)"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Validate Home Page Contents",
+        "description": "",
+        "id": "pwc-digital-pulse-tests;validate-home-page-contents",
+        "after": [
+          {
+            "result": {
+              "duration": 66224,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterScenario(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 183544145,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.AfterSteps()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2579493294,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I navigate to the PwC Digital Pulse website",
+            "match": {
+              "location": "HomePageSteps.iNavigateToThePwCDigitalPulseWebsite()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 58295825,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I am viewing the ‘Home’ page",
+            "match": {
+              "location": "HomePageSteps.iAmViewingTheHomePage()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 655507468,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I am presented with a carousel displaying 3 featured articles",
+            "match": {
+              "location": "HomePageSteps.iAmPresentedWithACarouselDisplayingFeaturedArticles()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 711348536,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Clicking the ‘Next’ button on the carousel will load the next 3 featured articles",
+            "match": {
+              "location": "HomePageSteps.clickingTheNextButtonOnTheCarouselWillLoadTheNextFeaturedArticles()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 688035029,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Clicking the ‘Previous’ button on the carousel will load the previous 3 featured articles",
+            "match": {
+              "location": "HomePageSteps.clickingThePreviousButtonOnTheCarouselWillLoadThePreviousFeaturedArticles()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 940537272,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeScenario(Scenario)"
+            }
+          }
+        ],
+        "line": 11,
+        "name": "Validate Contact Us hamburger menu",
+        "description": "",
+        "id": "pwc-digital-pulse-tests;validate-contact-us-hamburger-menu",
+        "after": [
+          {
+            "result": {
+              "duration": 27903,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterScenario(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 161726558,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.AfterSteps()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2955513164,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I navigate to the PwC Digital Pulse website",
+            "match": {
+              "location": "HomePageSteps.iNavigateToThePwCDigitalPulseWebsite()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1298030373,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I select ‘Contact us’ from the hamburger menu Then I am taken to the ‘Contact us’ page",
+            "match": {
+              "location": "ContactUsPageSteps.iSelectContactUsFromTheHamburgerMenuThenIAmTakenToTheContactUsPage()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 156640933,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I am presented with the below options for contacts",
+            "match": {
+              "location": "ContactUsPageSteps.iAmPresentedWithTheBelowOptionsForContacts(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Heading",
+                  "Contact Link"
+                ],
+                "line": 15
+              },
+              {
+                "cells": [
+                  "PwC Digital Services",
+                  "https://digital.pwc.com/en/contact-us.html"
+                ],
+                "line": 16
+              },
+              {
+                "cells": [
+                  "Digital Pulse editorial team",
+                  ""
+                ],
+                "line": 17
+              },
+              {
+                "cells": [
+                  "Careers at PwC",
+                  "https://www.pwc.com/gx/en/careers.html"
+                ],
+                "line": 18
+              },
+              {
+                "cells": [
+                  "General enquiries",
+                  "https://www.pwc.com/gx/en.html"
+                ],
+                "line": 19
+              }
+            ],
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 967681221,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeScenario(Scenario)"
+            }
+          }
+        ],
+        "line": 21,
+        "name": "Validate Search Page",
+        "description": "",
+        "id": "pwc-digital-pulse-tests;validate-search-page",
+        "after": [
+          {
+            "result": {
+              "duration": 54133,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterScenario(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 163435807,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.AfterSteps()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2945256751,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "I navigate to the PwC Digital Pulse website",
+            "match": {
+              "location": "HomePageSteps.iNavigateToThePwCDigitalPulseWebsite()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 378696112,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "I click on the ‘Magnifying glass’ icon to perform a search And I enter the text \"Single page applications\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Single page applications",
+                  "offset": 81
+                }
+              ],
+              "location": "SearchPageSteps.iClickOnTheMagnifyingGlassIconToPerformASearchAndIEnterTheText(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1275585021,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "I submit the search",
+            "match": {
+              "location": "SearchPageSteps.iSubmitTheSearch()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 41758093,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "I am taken to the search results page",
+            "match": {
+              "location": "SearchPageSteps.iAmTakenToTheSearchResultsPage()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 34856635,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "I am presented with at least 1 search result",
+            "match": {
+              "location": "SearchPageSteps.iAmPresentedWithAtLeastSearchResult()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "PWC Digital Pulse Tests",
+    "description": " Description: PWC Digital Pulse Website Validations",
+    "id": "pwc-digital-pulse-tests",
+    "keyword": "Feature",
+    "uri": "digitalPulseWebPage.feature"
+  }
+]
